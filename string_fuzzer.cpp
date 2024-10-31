@@ -1,6 +1,6 @@
 // string_fuzzer.cpp
 #include <string>
-#include "string_processor.cpp"
+#include "string_processor.h"
 
 // Функция, которая будет использоваться для фаззинга
 extern "C" int LLVMFuzzerTestOneInput(const uint8_t *data, size_t size) {
