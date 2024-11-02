@@ -4,6 +4,8 @@
 #include <cstring>
 
 void processString(const char* input) {
+    std::cout << "Received input: " << input << std::endl;
+
     char buffer[10];
 
     if (strlen(input) <= 10) {
